@@ -1,5 +1,7 @@
 import pytest
+
 from param2_check import get_top_features
+
 
 def test_more_than_three_valid():
     # 满足条件 >0.1 的有4个，取top3降序

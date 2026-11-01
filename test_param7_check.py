@@ -1,6 +1,7 @@
-import pytest
 import numpy as np
+
 from param7_check import check_data
+
 
 def test_all_same_length():
     # 全部长度相同，预期True

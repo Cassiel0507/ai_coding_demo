@@ -1,5 +1,5 @@
-import pytest
 from param_check import find_missing_params
+
 
 def test_has_missing():
     # 验收样例1：缺pressure

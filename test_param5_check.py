@@ -1,6 +1,8 @@
-import pytest
 import numpy as np
+import pytest
+
 from param5_check import validate_candidate
+
 
 def test_multi_hit_samples():
     X = np.array([

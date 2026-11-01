@@ -1,7 +1,9 @@
-import pytest
-import pandas as pd
 import numpy as np
+import pandas as pd
+import pytest
+
 from param4_check import summarize
+
 
 def test_normal_group_with_nan():
     data = [

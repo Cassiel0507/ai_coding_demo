@@ -1,6 +1,8 @@
-import pytest
 import numpy as np
+import pytest
+
 from param3_check import get_bounds
+
 
 def test_normal_with_nan_inf():
     arr = np.array([1,2,3,4,5, np.nan, np.inf, -np.inf, 6,7,8,9,10])

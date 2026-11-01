@@ -1,5 +1,7 @@
 import pytest
+
 from param6_check import merge_results
+
 
 def test_new_override_old():
     old = {("R1", "T1"): 0.8, ("R2", "T2"): 0.7}

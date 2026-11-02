@@ -1,5 +1,5 @@
-import pytest
 from param11_check import find_freq_peak
+
 
 def test_normal_case_find_max():
     data = [(10, 2.2), (20, 5.5), (30, 3.1)]

@@ -1,5 +1,5 @@
-import pytest
 from param13_check import count_abnormal_features
+
 
 def test_case1_alarm_equal_threshold():
     fft = [2.1, 1.5, 3.0, 1.9]

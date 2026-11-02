@@ -1,5 +1,5 @@
-import pytest
 from param14_check import rule_check
+
 
 def test_A_trigger_alarm():
     assert rule_check("ADPOL01_2A", 6, 11) == 1
